@@ -1,0 +1,347 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    align-items: center;
+    background-color: white;
+}
+
+#left-section {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+}
+
+#right-section {
+    display: flex;
+    flex-direction: row;
+    padding-right: 200px;
+    column-gap: 45px;
+    align-items: center;
+}
+
+.header-buttons {
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+#github-icon {
+    width: 30px;
+}
+
+.header-buttons:hover {
+    color: rgb(13, 172, 184);
+}
+
+#home, 
+#about,  
+#contact {
+    height: 100vh;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    padding-top: 300px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#home-left-section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: left;
+}
+
+#introduction {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 12px;
+}
+
+#title {
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+#summary {
+    font-size: 18px;
+    color: grey;
+    line-height: 26px;
+    margin-bottom: 36px;
+    width: 380px;
+}
+
+#contact-button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0.5px rgb(165, 165, 165);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+#contact-button:hover {
+    opacity: 0.7;
+}
+
+#scroll-down-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#mouse-icon {
+    width: 40px;
+    height: 40px;
+}
+
+#scroll-down {
+    text-decoration: none; color: #000;
+    margin-top: 300px;
+    transition: opacity 0.15s;
+}
+
+#scroll-down:hover {
+    opacity: 70%;
+}
+
+#scroll-down-text {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+#down-arrow {
+    width: 15px;
+}
+
+#image-1 {
+    width: 400px;
+    border-radius: 50%;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+#about-left-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+#about-opening-tag {
+    font-size: 150px;
+}
+
+#about-text,
+#about-text-2, 
+#about-text-3 {
+    font-size: 20px;
+}
+
+#about-text-2 {
+    margin-top: 20px;
+}
+
+#about-text-3 {
+    margin-top: 20px;
+}
+
+#about-closing-tag {
+    font-size: 150px;
+}
+
+#about-right-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-2 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 200px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 200px;
+    padding-left: 300px;
+    padding-bottom: 80px;
+    padding-right: 300px;
+}
+
+#contact-opening-tag {
+    font-size: 150px;
+}
+
+#contact-closing-tag {
+    font-size: 150px;
+}
+
+#contact-me-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contact-title {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#contact-title-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+#contact-right-section {
+    box-shadow: 0 0 10px 0.5px rgb(165, 165, 165);
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 400px;
+    position: relative;
+}
+
+#first-name, 
+#last-name,
+#email,
+#message {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    height: 20px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05); 
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(196, 196, 196);
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+    font-family: Roboto, Arial;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 6px;
+    width: 200px;
+
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+}
+
+#message-input {
+    height: 20px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05); 
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(196, 196, 196);
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+    font-family: Roboto, Arial;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 6px;
+    resize: vertical;
+    width: 200px;
+}
+
+#submit-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0.5px rgb(165, 165, 165);
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-top: 16px;
+}
+
+#submit-button:hover {
+    opacity: 0.7;
+}

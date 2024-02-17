@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div id="left-section">
+            <p class="name">David</p>
+        </div>
+        <div id="right-section">
+            <a href="#home">
+                <button class="header-buttons">Home</button>
+            </a>
+            <a href="#about">
+                <button class="header-buttons">About</button>
+            </a>
+            <a href="#contact">
+                <button class="header-buttons">Contact</button>
+            </a>
+            <a href="https://github.com/dkim00104" target="_blank">
+                <img id="github-icon" src="icons/github-mark.svg" placeholder="github-icon">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div id="home-left-section">
+                <div id="introduction">Hi, I'm David</div>
+                <div id="title">Aspiring Frontend Developer</div>
+                <div id="summary">Looking to further my skills and experience in web design and development.</div>
+                <a href="#contact">
+                    <div id="contact-me">
+                        <button id="contact-button">Contact Me &#8680;</button>
+                    </div>
+                </a>
+                <a id="scroll-down" href="#about">
+                    <div id="scroll-down-button">
+                        <img id="mouse-icon" src="icons/mouse-outline.png" placeholder="mouse-icon"><p id="scroll-down-text">Scroll down</p><img id="down-arrow" src="icons/down-arrow.svg">
+                    </div>
+                </a>
+            </div>
+            <div id="home-right-section">
+                <img id="image-1" src="images/image-1.JPG" placeholder="potrait-image">
+            </div>
+        </section>
+        <section id="about">
+            <div id="about-left-section">
+                <div id="about-opening-tag">&#60;about&#62;</div>
+                <div id="about-text">I've spent the past 3 years running my own boba shop right here in California. 
+                    It's been an incredible journey filled with lessons, growth, and unforgettable moments.
+                </div>
+                <div id="about-text-2">
+                    Recently, I made the bold decision 
+                    to transition into the tech industry. I'm eager to transition into a field that will allow me to have a deep impact 
+                    on real-world problems as part of a cooperative team through a demanding yet rewarding discipline such as software
+                    development. Bidding farewell to my business wasn't easy, but I'm excited about 
+                    the possibilities that lie ahead in this everchanging field.
+                </div>
+                <div id="about-text-3">
+                    Outside of work, I find fulfillment in 
+                    spending time with my wife and family, traveling, trying new foods, and catching up on the latest 
+                    movies and tv shows. But that's not all&#8212;I express my creativity through my passion for filmmaking and editing. It's an 
+                    interest and hobby I will never give up, and I'm thrilled to add software development to that list.
+                </div>
+                <div id="about-closing-tag">&#60;/about&#62;</div>
+            </div>
+            <div id="about-right-section">
+                <img id="image-2" src="images/image-2.JPG" placeholder="matcha-latte-image">
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contact-me-section">
+                <div id="contact-left-section">
+                    <div id="contact-title">Contact Me</div>
+                    <div id="contact-title-text">
+                        Need to get in touch with me? Fill out the form with your message or email me at <u>dkim00104@gmail.com</u>.
+                    </div>
+                </div>
+                <div id="contact-right-section">
+                    <div id="f-l-name">
+                        <div id="first-name">
+                            First name<input class="input">
+                        </div>
+                        <div id="last-name">
+                            Last name<input class="input">
+                        </div>
+                    </div>
+                    <div id="email">
+                        Email<input class="input">
+                    </div>
+                    <div id="message">
+                        Message
+                        <textarea id="message-input" type="text" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                        <button id="submit-button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
